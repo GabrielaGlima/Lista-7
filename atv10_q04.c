@@ -1,5 +1,9 @@
 /*4. Escreva rotinas para somar, subtrair e dividir números racionais
-(numerador/denominador). Faça um menu com opções.*/
+(numerador/denominador). Faça um menu com opções.
+typedef struct {
+    float numerador;
+    float denominador;
+} Racional;*/
 #include <stdlib.h>
 #include <stdio.h>
 

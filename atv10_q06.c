@@ -1,6 +1,11 @@
 /*6. Seja uma estrutura para descrever os carros de uma determinada revendedora,
 contendo os seguintes campos:
-
+        typedef struct {
+            char marca[15];
+            int ano;
+            char cor[10];
+            float preco;
+        } Carro;
 a) Declarar o vetor vetcarros do tipo da estrutura definida acima, de tamanho
 20.
 b) Definir uma função para ler o vetor vetcarros.

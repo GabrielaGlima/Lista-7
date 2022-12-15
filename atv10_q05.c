@@ -1,5 +1,9 @@
 /*5. Seja a seguinte estrutura:
-
+        typedef struct {
+            int hora;
+            int min;
+            int seg;
+        } Time;
 a) Receber uma quantidade de tempo em segundos e transformar a mesma em
 horas, minutos e segundo, preenchendo as informações da variável tempo
 do tipo struct Time.

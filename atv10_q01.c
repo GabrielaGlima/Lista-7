@@ -9,10 +9,10 @@ b) Escreva uma função que leia os dados do aluno atribuindo os valores lidos
 aos componentes de uma variável aluno que é do tipo struct Aluno. Dentro
 dessa função chame outras funções para ajudar na leitura:
 • Crie uma função para ler as três notas dos alunos. Protótipo:
-
+        void ler_notas(float v[], int quant);
 • Crie uma função para calcular a média das notas do aluno e atribua o
 resultado a média do aluno. Protótipo:
-
+        void calcular_media(float notas[], float *media, int quant);
 c) Imprima os valores de aluno.*/
 #include<stdio.h>
 #include<stdlib.h>
